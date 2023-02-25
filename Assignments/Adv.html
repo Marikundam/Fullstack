@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adv</title>
+    <style>
+        body{
+            background-color: white;
+        }
+        header {  
+            background-color: red;  
+            position: fixed;  
+            left: 0;  
+            right: 0;  
+            top: 5px;  
+            height: 30px;  
+            display: flex;  
+            align-items: center;  
+            box-shadow: 0 0 25px 0 black;  
+        }  
+        header * {  
+            display: inline;  
+        }  
+        header li {  
+            margin: 20px;  
+        }  
+        header li a {  
+            color: white;  
+            text-decoration: none;  
+        }  
+        .logo{
+            padding-top: 20px;
+            float: left;
+            
+        }
+        .dropbtn {
+            float: center;
+            background-color:black;
+            color: white;
+            margin-top: 55px;
+            margin-left: 50px;
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+            display: flex;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f1f1f1;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {background-color: #ddd;}
+
+        .dropdown:hover .dropdown-content {display: block;}
+
+        .dropdown:hover .dropbtn {background-color:red;}
+        hr{
+            align:center ;
+            width:5%;
+            margin-top: 60px;
+        }
+        #left {
+                float:left;
+                background:white;
+                width:80%;
+            }
+            #right{
+                float:right;
+                background:white;
+                width:20%;
+            }
+            input[type=submit] {
+            background-color:red;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 80px;
+            margin-left: 20px;
+            max-width: 100px;
+        }
+
+        input[type=submit]:hover {
+            background-color: grey;
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <nav>
+        <ul>  
+            <li>  
+            <a href="#"> Services </a>  
+            </li>  
+            <li>  
+            <a href="#"> About Us</a>  
+            </li>  
+            <li>  
+            <a href="#"> Contact Us</a>  
+            </li>  
+            <li> <a href="#"> Careers</a>  
+            </li>  
+            <li>  
+            <a href="#"> Blogs </a>  
+            </li>  
+            </ul>  
+    </nav>
+</header>
+
+        <div class="logo">
+            <img src="C:\Users\Marikundam\Dropbox\My PC (LAPTOP-KNE44JH5)\Desktop\ASSIGNMENTS\ASSIGNMENT 14-1-23\AS Images\act.png" alt="logo">
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">FIBERNET BROADBAND</button>
+            <div class="dropdown-content">
+              <a href="#">PLANS</a>
+              <a href="#">OFFERS</a>
+              <a href="#">OVERVIEW</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button class="dropbtn">BUSINESS BROADBAND</button>
+            <div class="dropdown-content">
+              <a href="#">ENQUIRY</a>
+              <a href="#">MANAGED WIFI</a>
+              <a href="#">OVERVIEW</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button class="dropbtn">ADD-ON OFFERS</button>
+            <div class="dropdown-content">
+              <a href="#">ENTERTAINMENT</a>
+              <a href="#">INTERNET SECURITY</a>
+              <a href="#">FITNESS</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button class="dropbtn">ENTERTAINMENT</button>
+            <div class="dropdown-content">
+              <a href="#">NETFLIX</a>
+              <a href="#">HOME</a>
+              <a href="#">OTT</a>
+            </div>
+          </div>
+
+          <h2 style="padding-top: 40px;padding-left: 20px;">Experience superfast fibernet broadband with these new upgraded incredible plans.</h2>
+         
+            <hr>
+
+        <div style="text-align:left;padding-left: 20px;">
+        <select id="City" name="City">
+        <option value="Andhra Pradesh">Change City</option>   
+        <option value="Andhra Pradesh">Hyderabad</option>
+        <option value="Arunachal Pradesh">Chennai</option>
+        <option value="Assam">Banglore</option>
+        <option value="Bihar">Delhi</option>
+        <option value="Chattisgarh">Chattisgarh</option>
+        <option value="Goa">Goa</option>
+        <option value="Gujarat">Mumbai</option>
+  
+      </select>
+
+    </div>
+    <h3 style="padding-top: 1px;padding-left: 20px;">In Hyderabad</h3>
+    <div id="left">
+         <table border="1" style="text-align: center;width: 80%;margin-left: 20px;margin-top: 10px;">
+
+            <tr style="background-color:yellow;height:50px;">
+                <th >Plans</th>
+                <th>Speed</th>
+                <th>Monthly Rental</th>
+                <th>FUP</th>
+            </tr>
+            <tr style="background-color:honeydew;height:30px;">
+                <td>ACT Basic</td>
+                <td>25Mbps</td>
+                <td>449</td>
+                <td>125GB</td>
+            </tr>
+            <tr style="background-color:honeydew;height:30px;">
+                <td>ACT Rush</td>
+                <td>40Mbps</td>
+                <td>799</td>
+                <td>200GB</td>
+            </tr>
+            <tr style="background-color:honeydew;height:30px;">
+                <td>ACT Sprint</td>
+                <td>100Mbps</td>
+                <td>999</td>
+                <td>350GB</td>
+            </tr>
+            <tr style="background-color:honeydew;height:30px;">
+                <td>ACT Race</td>
+                <td>1029Mbps</td>
+                <td>449</td>
+                <td>500GB</td>
+            </tr>
+            <tr style="background-color:honeydew;height:30px;">
+                <td>ACT Zoom</td>
+                <td>125Mbps</td>
+                <td>1299</td>
+                <td>750GB</td>
+            </tr>
+            <tr style="background-color:honeydew;height:30px;">
+                <td>ACT Bait</td>
+                <td>150Mbps</td>
+                <td>1499</td>
+                <td>1000GB</td>
+            </tr>
+          </table>
+        </div>
+        <div id="right">
+           
+            <div  ><input name="skip_Submit" value="GET NOW" type="submit"/></div>
+            <h5 style="font-style: italic;font-weight: 200;"><b>AND MAKE YOUR PLANS.</b> </h5>
+
+           <a href="#"> <P>CONTACT US:040-1237865</P></a>
+        </div>
+
+        
+</body>
+</html>
